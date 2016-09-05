@@ -31,6 +31,10 @@
 
 <b> compile 'com.android.volley:volley:1.0.0' </b>
 
+## Permission for AndroidManifest.xml
+
+`<uses-permission android:name="android.permission.INTERNET" />`
+
 ## For more details
  * Download <b> Android-PHP-from-mysql_Arc.pptx </b>
 
