@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidPHP</string>
+    <string name="app_name">Volley</string>
     <string name="emid_hint">Enter EmployeeID..</string>
     <string name="tagid_hint">Enter NFCTagID..</string>
     <string name="name_hint">Enter Name..</string>

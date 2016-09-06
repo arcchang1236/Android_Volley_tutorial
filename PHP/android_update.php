@@ -3,11 +3,11 @@
 
   $response = array();
 
-if( isset($_POST['EmployeeID'] ) && isset($_POST['EmployeeName']) ) {
-    $item_emid=$_POST['EmployeeID'];
-    $item_name=$_POST['EmployeeName'];
+if( isset($_POST['item_emid'] ) && isset($_POST['item_name']) ) {
+    $item_emid=$_POST['item_emid'];
+    $item_name=$_POST['item_name'];
 
-    $result = mysqli_query($con,"UPDATE EmployeeData SET EmployeeName='$item_name' WHERE EmployeeID='$item_emid'") or die(mysqli_error());
+    $result = mysqli_query($con,"UPDATE EmployeeData SET EmployeeName='$item_name' WHERE EmployeeID='$item_emid'");
 
     $row_count = mysqli_affected_rows($con);
 
