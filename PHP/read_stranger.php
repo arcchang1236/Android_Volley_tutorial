@@ -3,7 +3,7 @@ $con = mysqli_connect('pega.cl6h2fbtdud5.ap-northeast-1.rds.amazonaws.com', 'peg
 
 $response = array();
 
-$result = mysqli_query($con,"SELECT * FROM StrangerData WHERE RecordTime > datetime('now','-1 hours','localtime')");
+$result = mysqli_query($con,"SELECT * FROM StrangerData WHERE UNIX_TIMESTAMP(RecordTime) > UNIX_TIMESTAMP(NOW() - INTERVAL 8 HOUR)");
 
 if (mysqli_num_rows($result) > 0) {
 
