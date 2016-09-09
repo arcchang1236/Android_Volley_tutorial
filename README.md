@@ -29,7 +29,7 @@
 
 ## Gradle
 
-<b> compile 'com.android.volley:volley:1.0.0' </b>
+<b> compile 'com.mcxiaoke.volley:library:1.0.19' </b>
 
 ## Permission for AndroidManifest.xml
 
