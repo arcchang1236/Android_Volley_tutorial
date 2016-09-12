@@ -52,7 +52,7 @@ public class UpdateDeleteData extends Activity {
         PD.show();
         item_name = item_name_et.getText().toString();
 
-        String update_url = "http://52.198.30.224/update.php";
+        String update_url = "http://192.168.0.126/PHP/update.php";
 
         Map<String, String> params = new HashMap<String, String>();
         params.put("item_emid", id);
@@ -104,7 +104,7 @@ public class UpdateDeleteData extends Activity {
 
     public void delete(View view) {
         PD.show();
-        String delete_url = "http://52.198.30.224/delete.php?EmployeeID="
+        String delete_url = "http://192.168.0.126/PHP/delete.php?EmployeeID="
                 + id;
 
         JsonObjectRequest delete_request = new JsonObjectRequest(delete_url,
