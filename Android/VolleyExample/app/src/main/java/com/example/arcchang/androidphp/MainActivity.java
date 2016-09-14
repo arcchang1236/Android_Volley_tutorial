@@ -17,7 +17,7 @@ import com.android.volley.toolbox.StringRequest;
 
 public class MainActivity extends Activity {
     private final String TAG = "MainActivity";
-    String url = "http://192.168.0.126/PHP/insert_man.php";
+    String url = "http://192.168.0.141/PHP/insert_man.php";
     String item_emid;
     String item_tagid;
     String item_name;

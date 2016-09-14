@@ -21,7 +21,7 @@ import com.android.volley.toolbox.JsonObjectRequest;
 
 public class ReadData extends ListActivity {
 
-    String url = "http://192.168.0.126/PHP/read_employee.php";
+    String url = "http://192.168.0.141/PHP/read_employee.php";
     ArrayList<HashMap<String, String>> Item_List;
     ProgressDialog PD;
     ListAdapter adapter;
